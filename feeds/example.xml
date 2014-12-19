@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>Feed Title</title>
+<link>http://www.google.com</link>
+<description><![CDATA[Feed Description]]></description>
+<lastBuildDate>Fri, 19 Dec 2014 17:14:41 +0800</lastBuildDate>
+<generator>WebRSS Compiler 1.1</generator>
+<ttl>360</ttl>
+<item>
+<title>Post Title</title>
+<link>http://www.github.com</link>
+<description><![CDATA[Post Descriptipn]]></description>
+<published>Fri, 19 Dec 2014 17:14:41 +0800</published>
+</item>
+<item>
+<title>Post Title2</title>
+<link>http://www.google.com</link>
+<description><![CDATA[Post Descriptipn2]]></description>
+<published>Fri, 19 Dec 2014 17:14:41 +0800</published>
+</item>
+</channel></rss>
