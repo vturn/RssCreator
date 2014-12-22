@@ -27,7 +27,7 @@ class RssCreator {
         foreach ($this->rss_items as $rss_item) {
             $rpt = $currTimeStr;
             $xml .= '<item>' . "\n";
-            $xml .= '<title>' . htmlspecialchars(html_entity_decode($rss_item['title'])) . '</title>' . "\n";
+            $xml .= '<title><![CDATA[' . htmlspecialchars(html_entity_decode($rss_item['title'])) . ']]></title>' . "\n";
             $xml .= '<link>' . $rss_item['link'] . '</link>' . "\n";
             $xml .= '<description><![CDATA[' . $rss_item['description'] . ']]></description>' . "\n";
             if (isset($rss_item['image'])){
