@@ -33,7 +33,7 @@ class RssCreator {
             if (isset($rss_item['image'])){
                $xml .= '<image>' . "\n";
                $xml .= '<url>' . $rss_item['image']['url'] . '</url>' . "\n";    //Specifies the URL to the image
-               $xml .= '<title>' . $rss_item['image']['title'] . '</title>' . "\n";
+               $xml .= '<title><![CDATA[' . $rss_item['image']['title'] . ']]></title>' . "\n";
                $xml .= '<link>' . $rss_item['image']['link'] . '</link>' . "\n";   //Defines the hyperlink to the website that offers the channel
                $xml .= '</image>' . "\n";
             }
